@@ -1,5 +1,9 @@
-function add(a, b) {
-    return a + b;
+let a = 20;
+let b = 30;
+function divide(a, b) {
+    if (b == 0) {
+        throw 'Division by zero can not be done'
+    }
+    return a / b;
 }
-let result = add(100, 200);
-console.log(result);
+console.log(divide(100, 10));
