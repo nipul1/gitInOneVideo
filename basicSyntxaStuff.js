@@ -36,11 +36,14 @@
 
 // STRICT MODE OF js
 
-"use strict";
-function fun() {
-    msg = "hi"
-    console.log(msg);
-}
-fun();
-console.log(msg);
+// "use strict";
+// function fun() {
+//     msg = "hi"
+//     console.log(msg);
+// }
+// fun();
+// console.log(msg);
 // the above code will give an error because we are using strict mode of js
+
+
+
